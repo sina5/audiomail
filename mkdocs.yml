@@ -61,3 +61,4 @@ nav:
     - Command Line: cli.md
   - Configuration: configuration.md
   - Troubleshooting: troubleshooting.md
+  - Deployment: deployment.md
