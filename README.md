@@ -118,6 +118,37 @@ The system will automatically create a default `config.ini` if one doesn't exist
 -   **Errors during model loading**: You may not have enough RAM or VRAM for the selected models. Try using smaller models (e.g., `tiny` for Whisper) in `config.ini`.
 -   **`uv` command not found**: Ensure `uv` is installed (`pip install uv`). If you prefer not to use it, standard `venv` and `pip` work just as well.
 
+## Documentation
+
+Comprehensive documentation is available using MkDocs with a beautiful dark theme:
+
+### Building Documentation
+
+1. **Install documentation dependencies:**
+   ```bash
+   pip install -r docs-requirements.txt
+   ```
+
+2. **Build and serve documentation locally:**
+   ```bash
+   mkdocs serve
+   ```
+   
+   This will start a local server at `http://localhost:8000` with live reload.
+
+3. **Build static documentation:**
+   ```bash
+   mkdocs build
+   ```
+   
+   The documentation will be generated in the `site/` directory.
+
+The documentation includes:
+- **Installation Guide** - Step-by-step setup instructions
+- **Usage Guide** - How to use both CLI and Web UI
+- **Configuration** - Detailed configuration options
+- **Troubleshooting** - Solutions to common issues
+
 ## License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for more details.
